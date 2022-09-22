@@ -147,6 +147,7 @@ charts:
     - prometheus-operated.lma.svc.$(clusterName):10901
     - a15c73c938ec44400a221fcedb470981-1241416942.ap-northeast-2.elb.amazonaws.com:10901
     - a705d99f4456c48cc8a2573a8117eda2-1604896643.ap-northeast-2.elb.amazonaws.com:10901
+    - a21b0f2d632774e0d953fb47b0f1b0c9-2128476281.ap-northeast-2.elb.amazonaws.com:10901
     bucketweb.enabled: $(thanosPrimaryCluster)
     bucketweb.nodeSelector: $(nodeSelector)
     compactor.enabled: $(thanosPrimaryCluster)
